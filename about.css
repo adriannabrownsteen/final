@@ -1,0 +1,35 @@
+body {
+    margin: 0px;
+    background-color: #fff1ba;
+
+}
+
+ul{
+    display: flex;
+    justify-content: space-around;
+    width: 96%;
+    border: solid 2px white;
+}
+
+li {
+    font-size: 25px;
+    align-self: center;
+    list-style: none;
+}
+
+exp {
+ font-size: 20px;
+    color: #8a5823;
+}
+
+
+h1 {
+     font-size: 40px;
+    color: #8a5823;
+    text-align: center;
+    border: 500px #f6dbaa;
+}
+
+p {
+    font-size: 22px;
+    color: #8a5823;

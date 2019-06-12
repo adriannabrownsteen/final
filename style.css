@@ -1,0 +1,60 @@
+body {
+    margin: 0px;
+    background-color: #fff1ba;
+}
+
+color{
+    background-color: beige
+}
+
+#marginadri {
+    background-color: #f6dbaa;
+    align-content: flex-end;
+    margin-left: 40px;
+}
+#logo {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    margin-top: 65px;
+    margin-bottom: 20px;
+    border-bottom-right-radius: white;
+    font-size: 20px;
+    color: #8a5823;
+}
+
+#logoimg {
+    margin-left: 30px
+}
+
+#adrianna {
+    margin-left: 30px
+}
+
+#student {
+    margin-left: 30px;
+    margin-top: -20px
+}
+
+#paragraph {
+    margin-left: 30px;
+
+}
+
+#example {
+    padding: 10px;
+
+}
+
+#circles {
+    display: flex;
+    justify-content: space-around;
+
+}
+
+#circle 1 {
+    height: 10px;
+    width: 10px;
+}
+
+

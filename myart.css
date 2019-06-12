@@ -1,0 +1,109 @@
+body {
+    margin: 0px;
+    background-color: #fff1ba;
+
+
+}
+
+ul{
+    display: flex;
+    justify-content: space-around;
+    width: 96%;
+    border: solid 2px white;
+}
+
+li {
+    font-size: 25px;
+    align-self: center;
+    list-style: none;
+}
+
+#art1 {
+    float: left;
+  width: 80%;
+  margin-top: 40px;
+  margin-left: 50px
+
+}
+
+#art2 {
+    float: right;
+    position: relative;
+  width: 80%;
+  margin-top: -425px;
+    margin-right: -450px;
+
+}
+
+#art3 {
+    float: left;
+  width: 80%;
+  margin-top: 50px;
+    margin-left: 50px
+}
+
+#art4 {
+  float: right;
+    position: relative;
+  width: 80%;
+  margin-top: -388px;
+    margin-right: -450px
+
+}
+
+#art5 {
+    float: left;
+  width: 80%;
+  margin-top: -235px;
+  margin-left: 50px
+}
+
+#art6 {
+    float: right;
+    position: relative;
+  width: 90%;
+    margin-right: -548px;
+    margin-top: -225px
+}
+
+.container {
+  position: relative;
+  width: 50%;
+}
+
+.image {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: #f6dbaa;
+}
+
+.container:hover .overlay {
+  opacity: 1;
+}
+
+.text {
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+}
+/* end of img animation */
+
+
+
